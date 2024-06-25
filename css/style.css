@@ -82,6 +82,7 @@ body {
   
   .flowers {
     transform: scale(0.8);
+    margin-bottom: 100px;
   }
 }
 
