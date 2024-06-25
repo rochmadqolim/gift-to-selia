@@ -2,7 +2,7 @@ window.onload = () => {
   setTimeout(() => {
     document.body.classList.remove("not-loaded");
 
-    const titles = ('I Miss U').split('');
+    const titles = ('Dear Selia').split('');
     const message = ("Every moment without you feels like an eternity. I miss your smile, your laugh, the way you make everything better. Can't wait to be in your arms again. With all my love, [Selia]").split('');
     const titleElement = document.getElementById('title');
     const messageElement = document.getElementById('message');
