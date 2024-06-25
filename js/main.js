@@ -13,9 +13,9 @@ window.onload = () => {
         if (titleIndex < titles.length) {
             titleElement.innerHTML += titles[titleIndex];
             titleIndex++;
-            setTimeout(appendTitle, 300); // 300ms delay
+            setTimeout(appendTitle, 100);
         } else {
-            setTimeout(appendMessage, 500); // Delay before showing the message
+            setTimeout(appendMessage, 500); 
         }
     }
 
@@ -23,7 +23,7 @@ window.onload = () => {
         if (messageIndex < message.length) {
             messageElement.innerHTML += message[messageIndex];
             messageIndex++;
-            setTimeout(appendMessage, 50); // 50ms delay for each character
+            setTimeout(appendMessage, 50);
         } else {
             messageElement.style.opacity = 1;
         }
