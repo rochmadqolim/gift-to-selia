@@ -13,7 +13,7 @@ window.onload = () => {
         if (titleIndex < titles.length) {
             titleElement.innerHTML += titles[titleIndex];
             titleIndex++;
-            setTimeout(appendTitle, 100);
+            setTimeout(appendTitle, 100); // 300ms delay
         } else {
             setTimeout(appendMessage, 500); 
         }
